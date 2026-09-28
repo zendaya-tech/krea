@@ -1,0 +1,77 @@
+{
+  "name": "krea",
+  "version": "0.1.0",
+  "description": "2D and 3D map editor for video games — single-file .krea projects, editable models, sprites, terrain, game-ready export, and a stateless HTTP API + skill for AI agents.",
+  "license": "MIT",
+  "keywords": [
+    "map-editor",
+    "level-editor",
+    "tilemap",
+    "gamedev",
+    "game-development",
+    "2d",
+    "collision",
+    "ai-agent",
+    "agent-skills"
+  ],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zendaya-tech/krea.git"
+  },
+  "homepage": "https://github.com/zendaya-tech/krea#readme",
+  "bugs": {
+    "url": "https://github.com/zendaya-tech/krea/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "bin": {
+    "krea": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "docs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n SERVER,CLIENT -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "tsx watch src/server/index.ts",
+    "dev:client": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/build-cli.mjs && tsx scripts/gen-skill-reference.ts",
+    "start": "node dist/cli.js start",
+    "typecheck": "tsc --noEmit",
+    "verify:package": "node scripts/check-package.mjs",
+    "gen:sample": "tsx scripts/generate-sample-assets.ts",
+    "gen:skill-reference": "tsx scripts/gen-skill-reference.ts",
+    "prepublishOnly": "npm run build && npm run verify:package"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "@napi-rs/canvas": "^1.0.9",
+    "fflate": "^0.8.3",
+    "hono": "^4.6.14",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "esbuild": "^0.28.2",
+    "lucide-react": "^1.48.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "zustand": "^5.0.2"
+  }
+}

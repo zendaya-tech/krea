@@ -1,0 +1,1877 @@
+{
+  "version": 1,
+  "name": "Sample World",
+  "settings": {
+    "width": 20,
+    "height": 15,
+    "tileWidth": 32,
+    "tileHeight": 32
+  },
+  "layers": [
+    {
+      "id": "ground",
+      "name": "Ground",
+      "visible": false,
+      "locked": false
+    },
+    {
+      "id": "decoration",
+      "name": "Decoration",
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "objects": [
+    {
+      "id": "grass",
+      "name": "Grass",
+      "image": "assets/grass.png"
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "image": "assets/water.png"
+    },
+    {
+      "id": "tree",
+      "name": "Tree",
+      "image": "assets/tree.png",
+      "description": "A decorative pine tree, blocks movement."
+    },
+    {
+      "id": "rock",
+      "name": "Rock",
+      "image": "assets/rock.png"
+    },
+    {
+      "id": "house",
+      "name": "House",
+      "image": "assets/house.png"
+    },
+    {
+      "id": "bush",
+      "name": "Bush",
+      "image": "assets/grass.png"
+    }
+  ],
+  "mapping": [
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 0,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 1,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 2,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 3,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 4,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 5,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 6,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 7,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 8,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 9,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 10,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 11,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 12,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 13,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 10
+    },
+    {
+      "objectId": "tree",
+      "layerId": "ground",
+      "x": 14,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 14,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 15,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 16,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 17,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 18,
+      "y": 14
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 0
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 1
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 2
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 3
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 4
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 5
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 6
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 7
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 8
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 9
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 10
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 11
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 12
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 13
+    },
+    {
+      "objectId": "grass",
+      "layerId": "ground",
+      "x": 19,
+      "y": 14
+    },
+    {
+      "objectId": "water",
+      "layerId": "ground",
+      "x": 12,
+      "y": 3
+    },
+    {
+      "objectId": "water",
+      "layerId": "ground",
+      "x": 13,
+      "y": 3
+    },
+    {
+      "objectId": "water",
+      "layerId": "ground",
+      "x": 14,
+      "y": 3
+    },
+    {
+      "objectId": "water",
+      "layerId": "ground",
+      "x": 15,
+      "y": 3
+    },
+    {
+      "objectId": "water",
+      "layerId": "ground",
+      "x": 16,
+      "y": 3
+    },
+    {
+      "objectId": "water",
+      "layerId": "ground",
+      "x": 17,
+      "y": 3
+    },
+    {
+      "objectId": "tree",
+      "layerId": "decoration",
+      "x": 4,
+      "y": 7
+    },
+    {
+      "objectId": "tree",
+      "layerId": "decoration",
+      "x": 5,
+      "y": 7
+    },
+    {
+      "objectId": "house",
+      "layerId": "decoration",
+      "x": 10,
+      "y": 10
+    }
+  ]
+}
