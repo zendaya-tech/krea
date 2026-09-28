@@ -1,7 +1,7 @@
 ---
 name: krea
 description: Build and edit video game maps and levels — 2D tile maps and 3D terrains — with Krea, a local map editor with an HTTP API designed for AI agents. Use when the user wants to create a game world, level, dungeon, town, island, landscape or any map for a 2D or 3D video game; place tiles, objects, sprites, 3D models, collision shapes, spawn points or triggers; sculpt and paint a 3D terrain; work with .krea project files; or export a map for a game engine (Phaser, Godot, Unity, Three.js, a custom engine).
-compatibility: Requires Node.js 20+ and network access to localhost. Runs the `krea` npm package (npx krea start) and calls its HTTP API on http://localhost:3001.
+compatibility: Requires Node.js 20+ and network access to localhost. Runs the `@ngdream/krea` npm package (npx @ngdream/krea start) and calls its HTTP API on http://localhost:3001.
 ---
 
 # Krea — building maps for video games
@@ -45,14 +45,14 @@ visual editor (2D canvas or 3D view) to review or tweak what you built.
 
 ```bash
 curl -s http://localhost:3001/api/health        # {"ok":true} → already running
-npx krea start --no-open                          # otherwise: start it (keep it running in the background)
+npx @ngdream/krea start --no-open                 # otherwise: start it (keep it running in the background)
 ```
 
 - If 3001 is busy, Krea takes the next free port — read the URL it prints and
   use that base URL everywhere below.
-- `npx krea start path/to/world.krea` also opens the visual editor on that
+- `npx @ngdream/krea start path/to/world.krea` also opens the visual editor on that
   project in the user's browser — offer it when the user wants to look.
-- If `npx krea` isn't available, install it: `npm install -g krea`.
+- If `npx @ngdream/krea` isn't available, install it: `npm install -g @ngdream/krea`.
 
 ## 2. Decide 2D or 3D, and ask about the art
 

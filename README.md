@@ -23,12 +23,12 @@ node dist/cli.js start --no-open
 After the npm package is published, run it without installing globally:
 
 ```bash
-npx krea start
-npx krea start path/to/world.krea --port 3001
-npx krea skill install --agent codex
+npx @ngdream/krea start
+npx @ngdream/krea start path/to/world.krea --port 3001
+npx @ngdream/krea skill install --agent codex
 ```
 
-`npx krea --help` lists the CLI options. The first command starts the local editor and opens it in your browser. `npm install -g krea` also provides the `krea` command.
+`npx @ngdream/krea --help` lists the CLI options. The first command starts the local editor and opens it in your browser. `npm install -g @ngdream/krea` also provides the `krea` command.
 
 ## Editor
 

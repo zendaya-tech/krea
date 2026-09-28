@@ -1,6 +1,6 @@
 {
-  "name": "krea",
-  "version": "0.1.0",
+  "name": "@ngdream/krea",
+  "version": "0.1.1",
   "description": "2D and 3D map editor for video games — single-file .krea projects, editable models, sprites, terrain, game-ready export, and a stateless HTTP API + skill for AI agents.",
   "license": "MIT",
   "keywords": [
