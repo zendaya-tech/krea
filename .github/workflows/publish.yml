@@ -33,6 +33,3 @@ jobs:
       - run: npm run verify:package
       - name: Publish tested package
         run: npm publish --access public --provenance --ignore-scripts
-        env:
-          # Required for the first publish; later npm Trusted Publishing uses OIDC.
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

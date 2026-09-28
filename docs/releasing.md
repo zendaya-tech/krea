@@ -15,7 +15,7 @@ npm run verify:package
 npm publish --access public --ignore-scripts
 ```
 
-The initial attempt to publish unscoped `krea@0.1.0` from GitHub Actions was rejected by npm. The token-based attempt required interactive two-factor authentication, so the first scoped version needs a local publish.
+The initial attempt to publish unscoped `krea@0.1.0` from GitHub Actions was rejected by npm. The token-based attempt required interactive two-factor authentication, so `@ngdream/krea@0.1.1` was published locally.
 
 ## Switch to trusted publishing
 
